@@ -27,5 +27,5 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 - `src/pages/_app.tsx` – Global styles
 - `next.config.js` – Next.js config
 
----
-Production ready, scalable, and follows best practices.
+Preview:
+![Preview](/public/preview1.png)

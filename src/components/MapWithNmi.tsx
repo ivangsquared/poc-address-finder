@@ -307,6 +307,14 @@ const MapWithNmi: React.FC = () => {
           ) : (
             <div>Select a location on the map to fetch NMI and address.</div>
           )}
+          {/* shows the longitude and latitude of the selected position */}
+          {selectedPosition && (
+            <div style={{ marginTop: 16 }}>
+              <b>Longitude:</b> {selectedPosition.lng.toFixed(6)}
+              <br />
+              <b>Latitude:</b> {selectedPosition.lat.toFixed(6)}
+            </div>
+          )}
         </div>
 
       </div>
